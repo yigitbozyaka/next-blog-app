@@ -13,7 +13,7 @@ export default function About()
             <div className="container mx-auto px-4">
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="text-4xl font-bold my-4">About</h1>
-                    <p className="text-xl my-4">Hello I'm Nur.</p>
+                    <p className="text-xl my-4">Hello I'm John.</p>
                 </div>
             </div>
         </div>
