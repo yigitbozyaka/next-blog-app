@@ -16,11 +16,11 @@ const options = {
             authorize: async (credentials) => {
                 const { email, password } = credentials;
     
-                if (email !== 'fadimenurgulmez0@gmail.com' || password !== '123456') {
+                if (email !== 'johndoe@gmail.com' || password !== '123456') {
                     throw new Error('Email or password is incorrect');
                 }
     
-                return { id: 1, name: 'Fadime Nur Gülmez', email: 'fadimenurgulmez0@gmail.com' };
+                return { id: 1, name: 'John Doe', email: 'johndoe@gmail.com' };
             }
         })
     ],
