@@ -30,7 +30,7 @@ export default function Layout() {
 
     return (
         <nav className="container mx-auto py-12 w-screen flex flex-row justify-evenly">
-            <Link href="/"><h1 className="text-2xl font-bold z-10">Nur's Blog</h1></Link>
+            <Link href="/"><h1 className="text-2xl font-bold z-10">My Blog</h1></Link>
             <div className="hidden md:flex flex-row justify-between space-x-16 text-lg">
                 <Link href="/about">About</Link>
                 <button>
